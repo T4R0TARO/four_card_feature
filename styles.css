@@ -1,0 +1,76 @@
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --bold-txt: hsl(234, 12%, 34%);
+    --card-txt: hsl(229, 6%, 66%);
+    --main-bkg: hsl(0, 0%, 98%);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    height: 100vh;
+    background: var(--main-bkg);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    padding: 30px;
+    /* border: solid 10px goldenrod; */
+    background: var(--main-bkg);
+}
+
+.card_wrapper {
+    display: grid;
+    grid-gap: 20px;
+    padding: 30px;
+    grid-template-columns: 1fr;
+    border: solid 5px royalblue;
+}
+
+.card {
+    height: 200px;
+    width: 250px;
+    padding: 20px;
+    border: solid 5px salmon;
+}
+
+.super_card {
+    border-top: solid 5px var(--cyan);
+}
+
+.team_card {
+    border-top: solid 5px var(--red);
+}
+
+.karma_card {
+    border-top: solid 5px var(--orange);
+}
+
+.calc_card {
+    border-top: solid 5px var(--blue);
+}
+
+.attribution {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
