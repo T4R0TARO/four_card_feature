@@ -98,18 +98,22 @@ img {
 
 .super_card {
     border-top: solid 5px var(--cyan);
+    
 }
 
 .team_card {
     border-top: solid 5px var(--red);
+    
 }
 
 .karma_card {
     border-top: solid 5px var(--orange);
+    
 }
 
 .calc_card {
     border-top: solid 5px var(--blue);
+    
 }
 
 @media (min-width: 989px){
@@ -117,10 +121,38 @@ img {
         display: grid;
         grid-gap: 25px;
         padding: 30px;
-        grid-template-columns: 1fr;
-        border: solid 5px royalblue;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* border: solid 5px royalblue; */
         justify-items: center;
+        grid-template-areas: 
+                    "...    team    ..."
+                    "super  team    calc"
+                    "super  karma   calc"
+                    "...    karma   ..."
+        ;
     }
+
+    .top_text {
+        max-width: 600px;
+    }
+
+    .super_card {
+        grid-area: super;
+    }
+    
+    .team_card {
+        grid-area: team;
+    }
+    
+    .karma_card {
+        grid-area: karma;
+    }
+    
+    .calc_card {
+        grid-area: calc;
+    }
+  
 }
 
 
