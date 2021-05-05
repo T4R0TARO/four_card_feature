@@ -1,4 +1,6 @@
-:root {
+/* Custom Variables */
+:root 
+{
     --red: hsl(0, 78%, 62%);
     --cyan: hsl(180, 62%, 55%);
     --orange: hsl(34, 97%, 64%);
@@ -8,25 +10,32 @@
     --main-bkg: hsl(0, 0%, 98%);
 }
 
-html {
+/* Base Styles */
+html 
+{
     box-sizing: border-box;
     font-size: 100%;
 }
 
-*, *::before, *::after {
+*, *::before, *::after 
+{
     box-sizing: inherit;
     margin: 0px;
     padding: 0px;
 }
 
-body {
+body 
+{
     font-family:'Poppins', sans-serif;
     font-size: 15px;
     height: 100vh;
     background: var(--main-bkg);
 }
 
-.wrapper {
+
+/* Mobile View */
+.wrapper 
+{
     display: grid;
     grid-template-columns: 1fr;
     height: 100vh;
@@ -35,23 +44,27 @@ body {
     background: var(--main-bkg);
 }
 
-.main_text {
+.main_text 
+{
     display: flex;
     flex-direction: column;
     justify-self: center;
     align-items: center;
 }
 
-.top_title {
+.top_title 
+{
     margin-top: 2rem;
     font-weight: 200;
 }
 
-.bold_power {
+.bold_power 
+{
     margin-bottom: 1rem;
 }
 
-.top_text {
+.top_text 
+{
     font-weight: 200;
     color: var(--card-txt);
     text-align: center;
@@ -59,7 +72,8 @@ body {
     max-width: 300px;
 }
 
-.card_wrapper {
+.card_wrapper 
+{
     display: grid;
     grid-gap: 25px;
     padding: 30px;
@@ -68,7 +82,8 @@ body {
     justify-items: center;
 }
 
-.card {
+.card 
+{
     display: flex;
     flex-direction: column;
     height: 220px;
@@ -79,45 +94,54 @@ body {
     border-radius: 5px;
 }
 
-.title {
+.title 
+{
     margin-bottom: .5rem;
 }
 
-.card_text {
+.card_text 
+{
     color: var(--card-txt);
     font-weight: 200;
     font-size: 12px;
     margin-bottom: 3rem;
 }
 
-img {
+img 
+{
  height: 50px;
  width: 50px;
  align-self: flex-end;
 }
 
-.super_card {
+.super_card 
+{
     border-top: solid 5px var(--cyan);
     
 }
 
-.team_card {
+.team_card 
+{
     border-top: solid 5px var(--red);
     
 }
 
-.karma_card {
+.karma_card 
+{
     border-top: solid 5px var(--orange);
     
 }
 
-.calc_card {
+.calc_card 
+{
     border-top: solid 5px var(--blue);
-    
 }
 
-@media (min-width: 989px){
-    .card_wrapper {
+/* Desktop View */
+@media (min-width: 989px)
+{
+    .card_wrapper 
+    {
         display: grid;
         grid-gap: 25px;
         padding: 30px;
@@ -133,30 +157,36 @@ img {
         ;
     }
 
-    .top_text {
+    .top_text 
+    {
         max-width: 600px;
     }
 
-    .super_card {
+    .super_card 
+    {
         grid-area: super;
     }
     
-    .team_card {
+    .team_card 
+    {
         grid-area: team;
     }
     
-    .karma_card {
+    .karma_card 
+    {
         grid-area: karma;
     }
     
-    .calc_card {
+    .calc_card 
+    {
         grid-area: calc;
     }
   
 }
 
-
-.attribution {
+/* Main Footer */
+.attribution 
+{
     left: 0;
     bottom: 0;
     width: 100%;
@@ -164,7 +194,8 @@ img {
     text-align: center;
 }
 
-.attribution a {
+.attribution a 
+{
     list-style: none;
     text-decoration: none;
     color: lightseagreen;
