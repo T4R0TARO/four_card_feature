@@ -138,6 +138,7 @@ img
 }
 
 /* Desktop View */
+/* media querey sets grid to desktop view with grid-template-areas */
 @media (min-width: 989px)
 {
     .card_wrapper 
