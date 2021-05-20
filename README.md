@@ -27,6 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
+
+![image](https://user-images.githubusercontent.com/76195521/119057414-4edda380-b981-11eb-8849-f953fe791414.png)
+![image](https://user-images.githubusercontent.com/76195521/119057262-00c8a000-b981-11eb-9dd4-e4a976dba78c.png)
+
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
@@ -78,10 +83,15 @@ grid-template-area to set elements
 
 ### Useful resources
 
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas - 
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas) - Where I go for reference when I need to review CSS Grid
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - Where I go for reference when I need to review CSS Flex-box
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@T4R0TARO](https://www.frontendmentor.io/profile/T4R0TARO
+- Frontend Mentor - [@T4R0TARO](https://www.frontendmentor.io/profile/T4R0TARO)
+- Twitter - [@taro_code](https://twitter.com/taro_code)
 
+## Acknowledgments
+
+After going through Wes Bos Course on Flex-box and CSS Grid it helped me better understand when and where to apply layout properties.
